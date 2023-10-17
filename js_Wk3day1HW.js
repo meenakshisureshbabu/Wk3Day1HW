@@ -11,6 +11,7 @@ function maxOfTwoNumbers(num1, num2) {
 }
 
 console.log("The maximum number is :" + maxOfTwoNumbers(4, 8));
+console.log("The maximum number is :" + maxOfTwoNumbers(4, "Hi"));
 
 //2. Define a function, as a function expression,
 //maxOfThreethat takes three numbers as arguments and returns the largest of them. Again, the Math.max method is not allowed.
@@ -32,6 +33,7 @@ const maxOfThree = function (num1, num2, num3) {
 };
 
 console.log("The maximum number is :" + maxOfThree(3, 2, 4));
+console.log("The maximum number is :" + maxOfThree("Number", 2, 4));
 
 //3. Define a function, as a function declaration,
 //isCharAVowelthat takes a character as an argument and returns true if it is a vowel, false otherwise.
@@ -60,6 +62,7 @@ const sumArray = function (...nums) {
   return sum;
 };
 console.log("The sum of three numbers :" + sumArray(1, 4, 3));
+console.log("The sum of three numbers :" + sumArray("number", 4, 3));
 
 //5. Define a function, as a function declaration, multiplyArraythat takes an array of numbers and returns the
 //product those numbers. For example, multiplyArray([2, 4, 5]);would return 40
@@ -70,6 +73,7 @@ function multiplyArray(...nums) {
   return product;
 }
 console.log("The product of three numbers :" + multiplyArray(2, 4, 5));
+console.log("The product of three numbers :" + multiplyArray(2, 4, "number"));
 
 //6. Define a function, as a function expression, numArgsthat returns the number of arguments passed to the function when called.
 
